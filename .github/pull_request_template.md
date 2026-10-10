@@ -2,7 +2,7 @@
 * Brief description of the updates or features added in this PR.
 
 ## 🔗 Related Issue
-* Which issue does this PR close or relate to? (e.g., `#12`)
+* Closes #
 
 ## 🛠️ Checklist / Subtasks
 - [ ] Code implementation completed.
