@@ -1,6 +1,6 @@
 ---
 name: Task / Görev Takibi
-about: Yeni bir görev veya problem takibi için şablon
+about: Schema for a new task
 title: '[TASK] '
 labels: ''
 assignees: ''
