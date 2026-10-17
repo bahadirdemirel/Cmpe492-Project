@@ -218,3 +218,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Monorepo: Node / React / Hardhat
+# ---------------------------------------------------------------------------
+
+# The Python `lib/` rule above would otherwise hide frontend source folders
+!frontend/**/lib/
+
+# Node
+node_modules/
+npm-debug.log*
+.npm/
+
+# Env files (keep the committed templates)
+.env.*
+!.env.example
+
+# Django media: keep the folder, never commit the audio files dropped into it
+backend/media/*
+!backend/media/music/
+backend/media/music/*
+!backend/media/music/.gitkeep
+
+# Vite build output
+frontend/dist/
+
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/types/
+contracts/coverage/
+contracts/coverage.json
+contracts/ignition/deployments/chain-31337/
+
+# OS / editor
+.DS_Store
+Thumbs.db
